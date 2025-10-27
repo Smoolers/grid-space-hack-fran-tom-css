@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* BASE */
+:root {
+  --black-purple: #2e2d31;
+  --darkest-purple: #220b5e;
+  --dark-purple: #3b1d98;
+  --purple: #513779;
+  --light-purple: #7654b4;
+  --lightest-purple: #967ecb;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERIC */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+button {
+  font-family: "Inconsolata", monospace;
+}
+
+/* COLOR UTILITY CLASSES */
+
+.bg-black-purple {
+  background-color: var(--black-purple);
+}
+
+.bg-darkest-purple {
+  background-color: var(--darkest-purple);
+}
+
+.bg-dark-purple {
+  background-color: var(--dark-purple);
+}
+
+.bg-purple {
+  background-color: var(--purple);
+}
+
+.bg-light-purple {
+  background-color: var(--light-purple);
+}
+
+.bg-lightest-purple {
+  background-color: var(--lightest-purple);
+}
+
+.text-light {
+  color: white;
+}
+
+/* HEADER */
+
+/* HERO */
+
+/* MAIN */
